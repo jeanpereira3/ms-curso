@@ -38,3 +38,5 @@ server.port=8101
 ### 1.4 Implementar projeto hr-payroll (mock)
 
 ### 1.5 RestTemplate
+
+### 1.6 Feign
