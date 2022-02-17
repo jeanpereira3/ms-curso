@@ -40,3 +40,10 @@ server.port=8101
 ### 1.5 RestTemplate
 
 ### 1.6 Feign
+
+### 1.7 Ribbon load balancing
+
+Run configuration
+```
+-Dserver.port=8002
+```
