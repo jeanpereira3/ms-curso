@@ -47,3 +47,13 @@ Run configuration
 ```
 -Dserver.port=8002
 ```
+
+# Fase 2: Eureka, Hystrix, Zuul
+
+### 2.1 Criar projeto hr-eureka-server
+
+### 2.2 Configurar hr-eureka-server
+
+Porta padrão: 8761
+
+Acessar o dashboard no navegador: http://localhost:8761
