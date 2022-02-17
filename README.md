@@ -57,3 +57,11 @@ Run configuration
 Porta padrão: 8761
 
 Acessar o dashboard no navegador: http://localhost:8761
+
+### 2.3 Configurar clientes Eureka
+Eliminar o Ribbon de hr-payroll:
+```
+Dependência Maven
+Annotation no programa principal
+Configuração em application.properties
+```
