@@ -87,3 +87,8 @@ ribbon.ReadTimeout=20000
 Porta padrão: 8765
 
 ### 2.9 Random port para hr-payroll
+
+### 2.10 Zuul timeout
+Mesmo o timeout de Hystrix e Ribbon configurado em um microsserviço, se o Zuul não tiver seu timeout configurado, para ele será um problema de timeout. Então precisamos configurar o timeout no Zuul.
+
+Se o timeout estiver configurado somente em Zuul, o Hystrix vai chamar o método alternativo no microsserviço específico.
