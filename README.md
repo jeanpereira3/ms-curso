@@ -82,3 +82,6 @@ ribbon.ConnectTimeout=10000
 ribbon.ReadTimeout=20000
 
 ### 2.7 Criar projeto hr-zuul-server
+
+### 2.8 Configurar hr-zuul-server
+Porta padrão: 8765
