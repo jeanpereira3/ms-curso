@@ -94,3 +94,20 @@ Mesmo o timeout de Hystrix e Ribbon configurado em um microsserviço, se o Zuul 
 Se o timeout estiver configurado somente em Zuul, o Hystrix vai chamar o método alternativo no microsserviço específico.
  
 ### 3.1 Criar projeto hr-config-server
+
+### 3.2 Configurar projeto hr-config-server
+Quando um microsserviço é levantado, antes de se registrar no Eureka, ele busca as configurações no repositório central de configurações.
+
+hr-worker.properties
+```
+test.config=My config value default profile
+```
+hr-worker-test.properties
+```
+test.config=My config value test profile
+```
+Teste:
+```
+http://localhost:8888/hr-worker/default
+http://localhost:8888/hr-worker/test
+```
