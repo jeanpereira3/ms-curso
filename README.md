@@ -111,3 +111,8 @@ Teste:
 http://localhost:8888/hr-worker/default
 http://localhost:8888/hr-worker/test
 ```
+
+### 3.3 hr-worker como cliente do servidor de configuração, profiles ativos
+No arquivo bootstrap.properties configuramos somente o que for relacionado com o servidor de configuração, e também o profile do projeto.
+
+Atenção: as configurações do bootstrap.properties tem prioridade sobre as do application.properties
