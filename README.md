@@ -65,3 +65,8 @@ Dependência Maven
 Annotation no programa principal
 Configuração em application.properties
 ```
+
+### 2.4 Random port para hr-worker
+server.port=${PORT:0}
+
+eureka.instance.instance-id=${spring.application.name}:${spring.application.instance_id:${random.value}}
