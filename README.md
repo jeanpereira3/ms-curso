@@ -85,3 +85,5 @@ ribbon.ReadTimeout=20000
 
 ### 2.8 Configurar hr-zuul-server
 Porta padrão: 8765
+
+### 2.9 Random port para hr-payroll
