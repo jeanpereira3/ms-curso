@@ -92,3 +92,5 @@ Porta padrão: 8765
 Mesmo o timeout de Hystrix e Ribbon configurado em um microsserviço, se o Zuul não tiver seu timeout configurado, para ele será um problema de timeout. Então precisamos configurar o timeout no Zuul.
 
 Se o timeout estiver configurado somente em Zuul, o Hystrix vai chamar o método alternativo no microsserviço específico.
+ 
+### 3.1 Criar projeto hr-config-server
