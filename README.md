@@ -71,8 +71,14 @@ server.port=${PORT:0}
 
 eureka.instance.instance-id=${spring.application.name}:${spring.application.instance_id:${random.value}}
 
+### 2.5 Tolerância a falhas com Hystrix
+
 ### 2.6 Timeout de Hystrix e Ribbon
 
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=60000
+
 ribbon.ConnectTimeout=10000
+
 ribbon.ReadTimeout=20000
+
+### 2.7 Criar projeto hr-zuul-server
