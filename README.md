@@ -146,3 +146,5 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 2);
 ```
 
 ### 4.5 UserRepository, UserResource, Zuul config
+
+### 4.6 Criar projeto hr-oauth
