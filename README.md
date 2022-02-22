@@ -119,3 +119,6 @@ Atenção: as configurações do bootstrap.properties tem prioridade sobre as do
 
 ### 3.4 Actuator para atualizar configurações em runtime
 Atenção: colocar @RefreshScope em toda classe que possua algum acesso às configurações
+
+### 3.5 Repositório Git privativo
+Atenção: reinicie a IDE depois de adicionar as variáveis de ambiente
