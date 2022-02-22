@@ -126,3 +126,5 @@ Atenção: reinicie a IDE depois de adicionar as variáveis de ambiente
 # Fase 4: autenticação e autorização
 
 ### 4.1 Criar projeto hr-user
+
+### 4.2 Configurar projeto hr-user
