@@ -122,3 +122,7 @@ Atenção: colocar @RefreshScope em toda classe que possua algum acesso às conf
 
 ### 3.5 Repositório Git privativo
 Atenção: reinicie a IDE depois de adicionar as variáveis de ambiente
+
+# Fase 4: autenticação e autorização
+
+### 4.1 Criar projeto hr-user
