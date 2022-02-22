@@ -128,3 +128,5 @@ Atenção: reinicie a IDE depois de adicionar as variáveis de ambiente
 ### 4.1 Criar projeto hr-user
 
 ### 4.2 Configurar projeto hr-user
+
+### 4.3 Entidades User, Role e associação N-N
