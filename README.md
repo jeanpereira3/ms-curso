@@ -116,3 +116,6 @@ http://localhost:8888/hr-worker/test
 No arquivo bootstrap.properties configuramos somente o que for relacionado com o servidor de configuração, e também o profile do projeto.
 
 Atenção: as configurações do bootstrap.properties tem prioridade sobre as do application.properties
+
+### 3.4 Actuator para atualizar configurações em runtime
+Atenção: colocar @RefreshScope em toda classe que possua algum acesso às configurações
